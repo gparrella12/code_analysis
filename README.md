@@ -19,6 +19,14 @@ The `analysis.ipynb` notebook provides a simple example of how to load and read 
 
 If you use this dataset or find our work useful, please cite the following paper:
 
+```bibtex
+@inproceedings{carletti2025evaluating,
+  title={Evaluating Large Language Models for Vulnerability Detection Under Realistic Conditions},
+  author={Carletti, Vincenzo and Foggia, Pasquale and Mazzocca, Carlo and Parrella, Giuseppe and Vento, Mario},
+  booktitle={Proceedings of the 20th International Conference on Availability, Reliability and Security},
+  year={2025}
+}
+```
 
 
 ## LICENSE
