@@ -20,11 +20,23 @@ The `analysis.ipynb` notebook provides a simple example of how to load and read 
 If you use this dataset or find our work useful, please cite the following paper:
 
 ```bibtex
-@inproceedings{carletti2025evaluating,
-  title={Evaluating Large Language Models for Vulnerability Detection Under Realistic Conditions},
-  author={Carletti, Vincenzo and Foggia, Pasquale and Mazzocca, Carlo and Parrella, Giuseppe and Vento, Mario},
-  booktitle={Proceedings of the 20th International Conference on Availability, Reliability and Security},
-  year={2025}
+@InProceedings{10.1007/978-3-032-00644-8_8,
+  author="Carletti, Vincenzo
+  and Foggia, Pasquale
+  and Mazzocca, Carlo
+  and Parrella, Giuseppe
+  and Vento, Mario",
+  editor="Skopik, Florian
+  and Naessens, Vincent
+  and De Sutter, Bjorn",
+  title="Evaluating Large Language Models for Vulnerability Detection Under Realistic Conditions",
+  booktitle="Availability, Reliability and Security",
+  year="2025",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="135--152",
+  abstract="Vulnerability Detection (VD) in source code is a critical task for ensuring the security of software systems, particularly in C/C++ languages, which are extensively adopted in safety-critical applications. The recent widespread adoption of Large Language Models (LLMs) for software engineering tasks has led to specialized open-source Code-LLMs, tailored to handle programming languages and code-specific challenges. Although these models have achieved promising results for VD through prompt engineering and fine-tuning strategies, existing studies often evaluate them in unrealistic settings, where test data comes from a similar distribution of training data. In this work, we present a comprehensive evaluation of open-source Code-LLMs for VD in C/C++ code, employing both prompt engineering and fine-tuning approaches. We introduce a novel benchmark dataset composed exclusively of functions extracted from real-world, production-level open-source projects, with the aim to conduct a more realistic analysis. Our results highlight the limitations of current Code-LLMs for VD when evaluated under a realistic setup, emphasizing the need for more robust and generalizable solutions for secure software development.",
+  isbn="978-3-032-00644-8"
 }
 ```
 
